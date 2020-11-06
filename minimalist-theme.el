@@ -1,11 +1,11 @@
-;;; zaiste-theme.el
+;;; minimalist-theme.el
 (require 'doom-themes)
 
-(defgroup zaiste-theme nil
+(defgroup minimalist-theme nil
   "Options for doom-themes"
   :group 'doom-themes)
 
-(def-doom-theme zaiste
+(def-doom-theme minimalist
   "A light theme inspired by Bluloco"
 
   ;; name        default   256       16
@@ -76,7 +76,7 @@
     :foreground doc-comments
     :weight 'regular)
 
-   ((line-number &override) :foreground base4)
+   ((line-number &override) :foreground base2 0.2)
    ((line-number-current-line &override) :foreground base8)
 
    (doom-modeline-bar :background highlight)
@@ -162,7 +162,7 @@
 
 (after! org
   (setq
-   org-bullets-bullet-list '("⁖")
+   org-bullets-bullet-list '("◦")
    org-ellipsis " ... "
    org-todo-keyword-faces
    '(("TODO" :foreground "#7c7c75" :weight normal :underline t)
@@ -170,9 +170,13 @@
      ("INPROGRESS" :foreground "#0098dd" :weight normal :underline t)
      ("DONE" :foreground "#50a14f" :weight normal :underline t)
      ("CANCELLED" :foreground "#ff6480" :weight normal :underline t))
-   org-priority-faces '((65 :foreground "#e45649")
-                        (66 :foreground "#da8548")
-                        (67 :foreground "#0098dd"))
+
+
    ))
 
-;;; zaiste-theme.el ends here
+(setq org-priority-faces '((?A . (:foreground "red" :weight 'bold))
+                           (?B . (:foreground "yellow"))
+                           (?C . (:foreground "green"))))
+
+
+;;; minimalist-theme.el ends here
