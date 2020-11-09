@@ -80,7 +80,7 @@
    ((line-number-current-line &override) :foreground base8)
 
    (doom-modeline-bar :background highlight)
-   (doom-modeline-project-dir :foreground violet :weight 'bold)
+   (doom-modeline-project-dir :foreground blue :weight 'bold)
    (doom-modeline-buffer-file :weight 'regular)
 
    (mode-line :background modeline-bg :foreground modeline-fg)
@@ -103,7 +103,7 @@
    (mmm-default-submode-face :background base1)
 
    (org-block            :background base0)
-   (org-level-1          :foreground base8 :weight 'bold :height 1.25)
+   (org-level-1          :foreground base8  :height 1.25)
    (org-level-2          :foreground base6 :weight 'bold :height 1.1)
    (org-level-3          :foreground base5 :bold bold :height 1.0)
    (org-level-4          :foreground base4 :bold bold :height 1.0)
