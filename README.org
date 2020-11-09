@@ -1,6 +1,6 @@
 * Minimalist Emacs Theme
 
-This is a forked theme, the original (which I love) was done by Zeiste and also:
+This is a forked theme, the original (which I love) was done by [[https://github.com/zaiste/zaiste-emacs-theme][Zeiste]],  also:
 It is a spin-off from the [[https://github.com/hlissner/emacs-doom-themes][Doom One Light]] theme and remotly inspired by [[https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light][Bluloco]]
 by [[https://uloco.github.io/][Umut Topuzoğlu]].
 
